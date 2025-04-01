@@ -1,5 +1,3 @@
----
-
 ### **1. Running `log_monitor.sh`**
 ```bash
 $ ./log_monitor.sh
@@ -38,4 +36,3 @@ Mar 31 12:46:05 server1 sshd[2345]: CRITICAL: Failed login attempt from 192.168.
 ```
 - The recipient (`admin@example.com`) gets an email alert.
 
----
