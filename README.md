@@ -33,11 +33,7 @@ The system will perform three main functionalities:
 2. Filters critical logs.
 3. Sends email notifications.
 
-### **3.2 Class Diagram (if using Python OOP)**
-- **LogMonitor** (Reads logs, filters errors)
-- **AlertHandler** (Sends alerts)
-
-### **3.3 Deployment Design**
+### **3.2 Deployment Design**
 #### **Installation Instructions:**
 1. Clone repository: `git clone https://github.com/NIK-llama/se-project.git`
 2. Make scripts executable: `chmod +x log_monitor.sh alert.sh`
@@ -49,30 +45,25 @@ The system will perform three main functionalities:
 - Modular functions for reading logs, filtering errors, and sending alerts.
 - Uses `grep`, `awk`, and `mail` for automation.
 
-## **5. Software Configuration Management (SCM)**
-- Git repository with branches: `main`, `feature-log-filter`, `feature-email-alert`
-- Versioning: `v1.0`, `v1.1`
-- Change tracking via commits and pull requests.
+## **5. Performance Testing & Risk Management**
 
-## **6. Performance Testing & Risk Management**
-
-### **6.1 Performance Testing**
+### **5.1 Performance Testing**
 - **Tools Used:** `top`, `htop`, `iostat`, `vmstat`
 - **Metrics:** CPU usage, memory consumption
 
-### **6.2 Risk Analysis**
+### **5.2 Risk Analysis**
 | Risk | Type | Mitigation Strategy |
 |------|------|---------------------|
 | Incorrect log parsing | Operational | Test regex patterns before deployment |
 | Permission issues | Technical | Use proper file permissions and sudo when necessary |
 | Email not sent | Technical | Validate SMTP settings and use log debugging |
 
-## **7. Conclusion**
+## **6. Conclusion**
 This project demonstrates software engineering design principles in a practical Linux automation system. The modular and efficient shell script ensures proper logging, monitoring, and alerting of critical system errors.
 
-## **8. Submission Requirements**
+## **7. Submission Requirements**
 - Report (this document)
 - Shell script files (`log_monitor.sh`, `alert.sh`, `config.sh`)
 - Git repository link: `https://github.com/NIK-llama/se-project.git`
-- Screenshots of execution and test results
+- Screenshots of execution and test results in Results.md
 
