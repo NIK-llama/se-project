@@ -39,7 +39,7 @@ The system will perform three main functionalities:
 
 ### **3.3 Deployment Design**
 #### **Installation Instructions:**
-1. Clone repository: `git clone <GitHub Repository Link>`
+1. Clone repository: `git clone https://github.com/NIK-llama/se-project.git`
 2. Make scripts executable: `chmod +x log_monitor.sh alert.sh`
 3. Configure email settings in `config.sh`.
 4. Run: `./log_monitor.sh`
@@ -102,6 +102,6 @@ This project demonstrates software engineering design principles in a practical 
 ## **8. Submission Requirements**
 - Report (this document)
 - Shell script files (`log_monitor.sh`, `alert.sh`, `config.sh`)
-- Git repository link: `<GitHub Repository Link>`
+- Git repository link: `https://github.com/NIK-llama/se-project.git`
 - Screenshots of execution and test results
 
