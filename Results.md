@@ -27,7 +27,7 @@ Sending alert...
 
 ---
 
-### **4. Email Sent (Simulated Email Body)**
+### **4. Email Sent**
 ```
 Subject: Critical Log Alert
 
