@@ -28,7 +28,6 @@ The system will perform three main functionalities:
 ## **3. System Design**
 
 ### **3.1 Data Flow Diagram (DFD)**
-**Level 0:**
 1. The system reads `/var/log/syslog`.
 2. Filters critical logs.
 3. Sends email notifications.
